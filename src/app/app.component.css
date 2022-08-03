@@ -1,0 +1,52 @@
+ul{
+    list-style: none;
+}
+ul>li{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 10px;
+    border: 1px solid #EEE;
+    
+}
+ul>li:hover,
+ul>li:focus{
+background-color: #94c578;
+}
+.btn{
+    white-space: nowrap !important;
+    font-size:10px ;
+    font-weight:500 ;
+}
+.info{
+    width: 100%;
+    padding: 10px 20px;
+    background: #ffffff ;
+    box-shadow: 2px 2px 45px -25px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.btn1{
+    width: 100%;
+    border: none;
+    text-align: left;
+    padding: 17px 20px;
+    font-size:15px;
+    font-weight: normal;
+}
+.btn1:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f304";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    float: right;
+    color:#0d6efd;
+    
+  }
+.btn1:hover,.btn1:focus{
+    background-color:#89d7f5;
+}
+::placeholder{
+    font-size: 15px;
+}
